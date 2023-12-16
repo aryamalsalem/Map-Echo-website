@@ -1,0 +1,133 @@
+
+.content{
+    text-align: center;  
+   
+    
+ 
+    
+    
+}
+.content h1{
+   font-size: 160px;
+   color: black;
+   font-weight: 600;
+transition: 0.5s;
+}
+.content h1:hover{
+   -webkit-text-stroke:2px black ;
+   color: transparent;
+}
+.content a{
+   text-decoration: none;
+   display: inline-block;
+   color: black;
+   font-size: 24px;
+   border: 2px solid black;
+   padding: 14px 70px;
+   border-radius: 50px;
+   margin: 20px;
+   transition: 0.5s;
+}
+
+.content a:hover{
+   -webkit-text-stroke:2px black ;
+   color: transparent;
+}
+
+
+
+.video{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+ }
+ @media(min-aspect-ratio:16/9){
+   .video{
+      width: 100%;
+      height: auto;
+   }
+ }
+ @media(max-aspect-ratio:16/9){
+   .video{
+      width: auto;
+      height: 100%;
+   }
+ }
+ 
+
+ .dogs{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left:350px;
+    position: relative;
+    border: 3px solid #bcb8b1;
+    border-radius: 5px;
+    background: url(headphone.jpeg);
+    background-size: cover;
+ }
+ 
+ .birds{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left:350px;
+    position: relative;
+    border: 3px solid #bcb8b1;
+    border-radius: 5px;
+    background: url(question.jpeg);
+    background-size: cover;  
+ }
+
+ .cats{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left:350px;
+    position: relative;
+    border: 3px solid #bcb8b1;
+    border-radius: 5px;
+    background: url(camera.jpeg);
+    background-size: cover; 
+ }
+   
+ .video{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+ }
+ @media(min-aspect-ratio:16/9){
+   .video{
+      width: 100%;
+      height: auto;
+   }
+ }
+ @media(max-aspect-ratio:16/9){
+   .video{
+      width: auto;
+      height: 100%;
+   }
+ }
+ .title{
+   font-size: 50px;
+   text-align: center;
+   color:#8a817c;
+   text-shadow: #8a817c 2px 2px;
+   padding-top: 30px;
+ }
+ 
+ 
+ 
+ 
+ 
